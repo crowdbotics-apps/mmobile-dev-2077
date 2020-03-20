@@ -42,3 +42,8 @@ class Test(models.Model):
 class Testing(models.Model):
     "Generated Model"
     test = models.BigIntegerField()
+
+
+class Testtt(models.Model):
+    "Generated Model"
+    testt = models.BinaryField()
